@@ -28,7 +28,7 @@
         layers = <5>;
         input-processors = <
             &zip_xy_to_scroll_mapper
-            &zip_xy_scaler 1 32
+            &zip_xy_scaler 1 64
             /* スクロール速度を上げたいなら倍率を足す例（任意） */
             &zip_scroll_scaler 1 3
         >;
