@@ -26,6 +26,11 @@
             key-positions = <28 29>;
             layers = <2>;
         };
+
+        layer6 {
+            bindings = <&mo 6>;
+            key-positions = <53 52>;
+        };
     };
 
     behaviors {
