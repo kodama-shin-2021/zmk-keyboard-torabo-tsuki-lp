@@ -28,7 +28,7 @@
     input-processors = <
       &zip_xy_to_scroll_mapper
       /* スクロール速度を上げたいなら倍率を足す例（任意） */
-      /* &zip_scroll_scaler 3 2 */
+      &zip_scroll_scaler 1 3
     >;
   };
 };
