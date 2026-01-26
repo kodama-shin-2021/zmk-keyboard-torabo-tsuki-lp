@@ -117,11 +117,11 @@
 
         layer_4 {
             bindings = <
-&trans  &trans       &trans      &trans           &trans     &trans                                  &trans             &trans                &trans                 &trans          &trans                &trans
-&trans  &kp PERCENT  &kp DOLLAR  &kp AMPERSAND    &kp SLASH  &kp NON_US_BACKSLASH                    &kp SQT            &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp LEFT_BRACE  &kp RIGHT_BRACE       &trans
-&trans  &kp AT_SIGN  &kp HASH    &kp EXCLAMATION  &kp MINUS  &kp EQUAL             &trans  &trans    &kp DOUBLE_QUOTES  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SEMICOLON   &kp COLON             &trans
-&trans  &kp CARET    &kp TILDE   &kp QUESTION     &kp PLUS   &kp ASTERISK          &trans  &kp PIPE  &kp LESS_THAN      &kp GREATER_THAN      &kp COMMA              &kp PERIOD      &kp UNDERSCORE        &trans
-&trans  &trans       &trans      &trans           &trans     &kp LG(F6)            &trans  &trans    &trans             &trans                &trans                 &kp GRAVE       &kp LG(LS(NUMBER_4))  &trans
+&trans  &trans       &trans      &trans           &trans     &trans                           &trans             &trans                &trans                 &trans          &trans                &trans
+&trans  &kp PERCENT  &kp DOLLAR  &kp AMPERSAND    &kp SLASH  &kp BACKSLASH                    &kp SQT            &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp LEFT_BRACE  &kp RIGHT_BRACE       &trans
+&trans  &kp AT_SIGN  &kp HASH    &kp QUESTION     &kp MINUS  &kp EQUAL      &trans  &trans    &kp DOUBLE_QUOTES  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SEMICOLON   &kp COLON             &trans
+&trans  &kp CARET    &kp TILDE   &kp EXCLAMATION  &kp PLUS   &kp ASTERISK   &trans  &kp PIPE  &kp LESS_THAN      &kp GREATER_THAN      &kp COMMA              &kp PERIOD      &kp UNDERSCORE        &trans
+&trans  &trans       &trans      &trans           &trans     &kp LG(F6)     &trans  &trans    &trans             &trans                &trans                 &kp GRAVE       &kp LG(LS(NUMBER_4))  &trans
             >;
         };
 
