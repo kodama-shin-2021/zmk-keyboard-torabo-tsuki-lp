@@ -127,11 +127,11 @@
 
         layer_5 {
             bindings = <
-&trans             &trans  &trans  &trans        &trans         &trans                         &trans         &trans                &trans                 &trans  &trans         &trans
-&kp C_VOLUME_UP    &trans  &trans  &trans        &trans         &trans                         &kp LG(TILDE)  &kp LG(LA(LEFT))      &kp LA(LG(RIGHT))      &trans  &trans         &trans
-&kp C_VOLUME_DOWN  &trans  &trans  &kp LC(LEFT)  &kp LC(RIGHT)  &trans  &trans  &trans         &kp LA(PLUS)   &kp LA(LG(LEFT))      &kp LG(LA(RIGHT))      &trans  &kp RIGHT_ALT  &trans
-&trans             &trans  &trans  &trans        &trans         &trans  &trans  &trans         &kp LG(MINUS)  &kp LG(LEFT_BRACKET)  &kp LG(RIGHT_BRACKET)  &trans  &kp RIGHT_ALT  &trans
-&trans             &trans  &trans  &trans        &trans         &trans  &trans  &kp LG(LS(R))  &kp LG(W)      &trans                &trans                 &trans  &trans         &trans
+&trans             &trans  &trans  &trans        &trans         &trans                         &trans                 &trans                &trans                 &trans  &trans         &trans
+&kp C_VOLUME_UP    &trans  &trans  &trans        &trans         &trans                         &kp LG(TILDE)          &kp LG(LA(LEFT))      &kp LA(LG(RIGHT))      &trans  &trans         &trans
+&kp C_VOLUME_DOWN  &trans  &trans  &kp LC(LEFT)  &kp LC(RIGHT)  &trans  &trans  &trans         &mt LEFT_ALT LG(PLUS)  &kp LA(LG(LEFT))      &kp LG(LA(RIGHT))      &trans  &kp RIGHT_ALT  &trans
+&trans             &trans  &trans  &trans        &trans         &trans  &trans  &trans         &kp LG(MINUS)          &kp LG(LEFT_BRACKET)  &kp LG(RIGHT_BRACKET)  &trans  &kp RIGHT_ALT  &trans
+&trans             &trans  &trans  &trans        &trans         &trans  &trans  &kp LG(LS(R))  &kp LG(W)              &trans                &trans                 &trans  &trans         &trans
             >;
         };
 
