@@ -31,7 +31,7 @@
             &zip_scroll_transform INPUT_TRANSFORM_X_INVERT
             &zip_xy_scaler 1 512
             /* スクロール速度を上げたいなら倍率を足す例（任意） */
-            &zip_scroll_scaler 1 16
+            &zip_scroll_scaler 1 32
         >;
     };
 };
