@@ -81,7 +81,7 @@
 &kp TAB           &kp Q             &kp W         &kp E              &kp R               &kp T                                    &kp Y             &kp U  &kp I     &kp O                   &kp P             &kp BSPC
 &kp LEFT_CONTROL  &kp A             &kp S         &kp D              &kp F               &kp G        &none        &none          &kp H             &kp J  &kp K     &kp L                   &mo 3             &kp ENTER
 &kp LSHFT         &kp Z             &kp X         &kp C              &kp V               &kp B        &kp TAB      &kp BACKSPACE  &kp N             &kp M  &mkp MB1  &mouce_and_layer 5 MB2  &kp RIGHT_SHIFT   &kp RSHFT
-&kp ESC           &kp LS(LEFT_ALT)  &kp LEFT_ALT  &kp RIGHT_CONTROL  &mt LEFT_WIN LANG2  &lt 3 LANG2  &lt 2 SPACE  &lt 2 ENTER    &lt 4 LANGUAGE_1  &none  &none     &kp LG(SPACE)           &kp LC(UP_ARROW)  &kp LC(UP_ARROW)
+&kp ESC           &kp LS(LEFT_ALT)  &kp LEFT_ALT  &kp RIGHT_CONTROL  &mt LEFT_WIN LANG2  &lt 3 LANG2  &lt 2 SPACE  &lt 2 ENTER    &lt 4 LANGUAGE_1  &none  &none     &kp LG(SPACE)           &kp LC(UP_ARROW)  &kp LG(F6)
             >;
         };
 
@@ -99,8 +99,8 @@
             bindings = <
 &trans  &trans                    &trans                      &trans                &trans                 &trans                                          &trans     &trans        &trans        &trans        &trans      &trans
 &trans  &kp LS(LG(F18))           &kp LS(LG(LEFT))            &kp LS(LG(UP_ARROW))  &kp LS(LG(RIGHT))      &kp LS(LG(F19))                                 &kp PLUS   &kp N7        &kp N8        &kp N9        &kp SPACE   &trans
-&trans  &kp LA(LG(LS(UP_ARROW)))  &kp LA(LG(LS(RIGHT)))       &kp LG(LS(LA(LEFT)))  &kp LG(LS(LA(RIGHT)))  &kp LS(LA(LG(L)))  &none                &trans  &kp MINUS  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp COLON   &trans
-&trans  &kp LA(LG(LS(LEFT)))      &kp LA(LS(LG(DOWN_ARROW)))  &trans                &trans                 &kp LS(LA(LG(L)))  &kp LG(LS(LA(F18)))  &trans  &kp SLASH  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp N0      &trans
+&trans  &kp LA(LG(LC(UP_ARROW)))  &kp LC(LA(LG(RIGHT)))       &kp LG(LS(LA(LEFT)))  &kp LG(LS(LA(RIGHT)))  &kp LS(LA(LG(L)))  &none                &trans  &kp MINUS  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp COLON   &trans
+&trans  &kp LA(LG(LC(LEFT)))      &kp LA(LG(LC(DOWN_ARROW)))  &trans                &trans                 &kp LS(LA(LG(L)))  &kp LG(LS(LA(F18)))  &trans  &kp SLASH  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp N0      &trans
 &trans  &trans                    &trans                      &trans                &trans                 &trans             &trans               &trans  &trans     &none         &none         &kp COMMA     &kp PERIOD  &trans
             >;
         };
@@ -108,7 +108,7 @@
         layer_3 {
             bindings = <
 &trans   &trans         &trans  &trans     &trans         &trans                         &trans  &trans          &trans          &trans         &trans  &trans
-&kp ESC  &trans         &trans  &trans     &trans         &kp LS(LG(T))                  &trans  &kp LA(LEFT)    &kp UP_ARROW    &kp LA(RIGHT)  &trans  &trans
+&kp ESC  &kp ESCAPE     &trans  &trans     &trans         &kp LS(LG(T))                  &trans  &kp LA(LEFT)    &kp UP_ARROW    &kp LA(RIGHT)  &trans  &trans
 &trans   &kp LG(LS(A))  &trans  &trans     &trans         &text          &trans  &trans  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT      &trans  &trans
 &trans   &trans         &trans  &kp LG(C)  &kp LG(LS(V))  &trans         &trans  &trans  &trans  &trans          &kp END         &trans         &trans  &trans
 &trans   &trans         &trans  &trans     &trans         &trans         &trans  &trans  &trans  &trans          &trans          &trans         &trans  &trans
