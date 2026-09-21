@@ -53,6 +53,28 @@
     };
 
     behaviors {
+        language_mod_tap: language_mod_tap {
+            compatible = "zmk,behavior-hold-tap";
+            #binding-cells = <2>;
+            bindings = <&kp>, <&kp>;
+            flavor = "tap-preferred";
+            tapping-term-ms = <150>;
+            quick-tap-ms = <150>;
+            hold-while-undecided;
+            retro-tap;
+        };
+
+        language_layer_tap: language_layer_tap {
+            compatible = "zmk,behavior-hold-tap";
+            #binding-cells = <2>;
+            bindings = <&mo>, <&kp>;
+            flavor = "tap-preferred";
+            tapping-term-ms = <150>;
+            quick-tap-ms = <150>;
+            hold-while-undecided;
+            retro-tap;
+        };
+
         mouce_and_layer: mouce_and_layer {
             compatible = "zmk,behavior-hold-tap";
             label = "MOUCE_AND_LAYER";
@@ -81,7 +103,7 @@
 &kp TAB           &kp Q             &kp W         &kp E              &kp R               &kp T                                    &kp Y             &kp U  &kp I     &kp O                   &kp P             &kp BSPC
 &kp LEFT_CONTROL  &kp A             &kp S         &kp D              &kp F               &kp G        &none        &none          &kp H             &kp J  &kp K     &kp L                   &mo 3             &kp ENTER
 &kp LSHFT         &kp Z             &kp X         &kp C              &kp V               &kp B        &kp TAB      &kp BACKSPACE  &kp N             &kp M  &mkp MB1  &mouce_and_layer 5 MB2  &kp RIGHT_SHIFT   &kp RSHFT
-&kp ESC           &kp LS(LEFT_ALT)  &kp LEFT_ALT  &kp RIGHT_CONTROL  &mt LEFT_WIN LANG2  &lt 3 LANG2  &lt 2 SPACE  &lt 2 ENTER    &lt 4 LANGUAGE_1  &none  &none     &kp LG(SPACE)           &kp LC(UP_ARROW)  &kp LC(UP_ARROW)
+&kp ESC           &kp LS(LEFT_ALT)  &kp LEFT_ALT  &kp RIGHT_CONTROL  &language_mod_tap LEFT_WIN LANG2  &language_layer_tap 3 LANG2  &lt 2 SPACE  &lt 2 ENTER  &language_layer_tap 4 LANGUAGE_1  &none  &none  &kp LG(SPACE)  &kp LC(UP_ARROW)  &kp LC(UP_ARROW)
             >;
         };
 
